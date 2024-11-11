@@ -1,10 +1,13 @@
 import './App.css';
+import Search from './components/Search';
 
 function App() {
 
   return (
     <>
-      <div className='App'>Hello Marvel</div>
+      <div className='App'>
+        <Search/>
+      </div>
        
     </>
   )
